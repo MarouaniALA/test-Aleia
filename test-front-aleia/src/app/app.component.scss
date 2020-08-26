@@ -1,0 +1,609 @@
+.rectangle {
+  background-color: #FFFFFF;
+  justify-content: space-between;
+  display: flex;
+  padding: 10px;
+  span{
+    margin: auto;
+  }
+}
+
+.menu-desktop {
+  justify-content: space-between;
+  margin: auto;
+  width: 55%;
+  display: flex;
+}
+
+.logo-aleia {
+  width: 158px;
+  height: 63px;
+  margin-left: 55px;
+}
+
+.about-us {
+  color: #1D1F22;
+  font-family: OpenSans;
+  font-size: 16px;
+  line-height: 21.79px;
+  text-align: left;
+}
+
+.services {
+  color: #1E1F22;
+  font-family: OpenSans;
+  font-size: 16px;
+  line-height: 21.79px;
+  text-align: left;
+}
+
+.careers {
+  color: #1D1F21;
+  font-family: OpenSans;
+  font-size: 16px;
+  line-height: 21.79px;
+  text-align: left;
+}
+
+.functions {
+  color: #1D1F21;
+  font-family: OpenSans;
+  font-size: 16px;
+  line-height: 21.79px;
+  text-align: left;
+}
+
+.contact-us {
+  color: #000000;
+  font-family: OpenSans;
+  font-size: 16px;
+  line-height: 21.79px;
+  width: 82px;
+  text-align: center;
+}
+
+.rectangle-contactus {
+  background-image: linear-gradient(47.99deg, #2E8174 0%, #30A996 42.53%, #00FFD9 100%);
+  border-radius: 15px;
+  width: 128px;
+  height: 52px;
+  margin: auto;
+  display: flex;
+}
+
+.rectangle-hang {
+  background-image: linear-gradient(47.99deg, #2E8174 0%, #30A996 42.53%, #00FFD9 100%);
+  border-radius: 15px;
+  width: 128px;
+  height: 52px;
+  margin: auto;
+  display: flex;
+}
+
+.rectangle-almost {
+  background-image: linear-gradient(47.99deg, #2E8174 0%, #30A996 42.53%, #00FFD9 100%);
+  border-radius: 15px;
+  width: 267px;
+  height: 50px;
+  margin: auto;
+  display: flex;
+}
+
+.its-almost-done-do {
+  color: #000000;
+  font-family: OpenSans;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  margin: auto;
+}
+.fr {
+  color: #1D1F22;
+  font-family: OpenSans;
+  font-size: 16px;
+  line-height: 21.79px;
+  text-align: left;
+}
+
+.mask {
+  background-color: #242726;
+  height: 1037px;
+}
+.mask-block {
+  max-width: 60%;
+  padding: 15% 10%;
+
+}
+.data-image-png-15 {
+position: absolute;
+  right: 0;
+}
+
+.be-careful-to-respec {
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-size: 58px;
+  line-height: 70.7px;
+  width: 637px;
+  text-align: left;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.technologies-html {
+  color: #BFBEBF;
+  font-family: OpenSans;
+  font-size: 19px;
+  line-height: 25.87px;
+  width: 487px;
+  text-align: justify;
+  position: relative;
+  margin-bottom: 35px;
+
+}
+
+.lets-discover {
+  color: #FFFFFF;
+  font-family: OpenSans;
+  font-size: 16px;
+  line-height: 21.79px;
+  text-align: center;
+  margin: auto;
+}
+
+.div-lets-discover {
+  border: 3px solid #2E8174;
+  border-radius: 15px;
+  width: 150px;
+  height: 56px;
+  display: flex;
+  margin: auto;
+  z-index: 2;
+  position: relative;
+}
+
+.good-rectangle {
+  background-color: #FFFFFF;
+  box-shadow: 0 100px 100px 0 rgba(236, 236, 236, 0.5);
+  max-width: 90%;
+  padding: 7% 9% 2%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  margin-top: -85px;
+}
+
+.good-luck-about-this {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 40px;
+  line-height: 48.76px;
+  width: 475px;
+  text-align: justify;
+  padding: 2%;
+}
+
+.lorem-ipsum-dolor-si {
+  color: #807F7F;
+  font-family: OpenSans;
+  font-size: 19px;
+  line-height: 25.87px;
+  width: 460px;
+  text-align: justify;
+  padding: 2%;
+  label {
+    margin-bottom: 30px;
+  }
+}
+
+.hang-in-there {
+  color: #000000;
+  font-family: OpenSans;
+  font-size: 16px;
+  line-height: 21.79px;
+  text-align: center;
+  margin: auto;
+}
+
+.dont-forget-about-t {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 40px;
+  line-height: 48.76px;
+  text-align: justify;
+  margin: auto;
+}
+
+.dont-forget-block {
+  margin: 30% auto 90px;
+  display: grid;
+  max-width: 90%;
+}
+
+.lorem-ipsum {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 25px;
+  line-height: 30px;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.lorem-ipsum-dolor-si {
+  color: #807F7F;
+  font-family: OpenSans;
+  font-size: 19px;
+  line-height: 25.87px;
+  width: 298px;
+  text-align: justify;
+}
+
+.lorem-block {
+  max-width: 90%;
+  margin: 0 auto 5%;
+}
+
+.rectangle-footer {
+  background-color: #1D1F22;
+  height: 211px;
+  margin-top: 75px;
+}
+
+.send-us-your-email-t {
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: justify;
+}
+
+.email-box {
+  border: 3px solid #2E8174;
+  border-radius: 15px;
+  width: 393px;
+  margin: 14px auto;
+  input {
+    width: 80%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: transparent;
+  }
+
+  input::placeholder {
+    text-align: center;
+  }
+  button {
+    background: transparent;
+    border: tan;
+    color: white;
+    width: 20%;
+  }
+}
+
+.top-footer {
+  height: 170px;
+  align-items: center;
+  margin-right: unset;
+}
+
+.all-rights-r {
+       color: #818181;
+       font-family: Montserrat;
+       font-size: 10px;
+       line-height: 12.19px;
+       text-align: center;
+       width: 100%;
+}
+
+.follow-as {
+
+  img{
+    margin: 0 10px
+  }
+
+}
+
+.logo-aleia-footer {
+  display: none;
+}
+
+.logo-top-footer {
+  display: block;
+}
+
+.menu {
+  display: none;
+}
+
+.logo-aleia-top-footer {
+  width: 258px;
+  height: 103px;
+}
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .menu-desktop {
+  display: none;
+  }
+
+  .menu {
+    width: 70px;
+    height: 40px;
+    margin: auto 0;
+    display: block;
+  }
+
+  .logo-aleia {
+    width: 100px;
+    height: 40px;
+  }
+
+  .rectangle-contactus {
+    display: none;
+  }
+  .fr {
+    display: none;
+  }
+
+  .rectangle {
+    position: absolute;
+    width: 100%;
+    background: transparent;
+    padding: 6%;
+  }
+
+  .mask {
+    padding-top: 20%;
+  }
+
+  .mask-block {
+    max-width: 100%;
+  }
+
+  .data-image-png-15 {
+    width: 100%;
+    height: 496px;
+    margin-top: 26%;
+  }
+
+  .be-careful-to-respec {
+    font-size: 40px;
+    line-height: 48.76px;
+    width: 306px;
+    text-align: left;
+  }
+
+  .technologies-html {
+    font-size: 14px;
+    line-height: 19.07px;
+    width: 298px;
+    text-align: justify;
+  }
+
+  .good-luck-about-this {
+    font-size: 18px;
+    line-height: 21.94px;
+    width: 265px;
+    text-align: center;
+  }
+
+  .lorem-ipsum-dolor-si {
+    font-size: 14px;
+    line-height: 19.07px;
+    width: 237px;
+    text-align: justify;
+  }
+
+  .dont-forget-about-t {
+    font-size: 18px;
+    line-height: 21.94px;
+    width: 318px;
+    text-align: center;
+  }
+
+  .dont-forget-block {
+    margin: 113% auto 90px;
+    place-items: center;
+  }
+  .mask {
+    height: 730px;
+  }
+
+  .its-almost-done-do {
+    font-size: 12px;
+    line-height: 16.34px;
+  }
+
+  .rectangle-footer {
+    height: 211px;
+  }
+
+  .follow-as {
+    display: none;
+  }
+
+
+  .send-us-your-email-t {
+    font-size: 14px;
+    line-height: 17.07px;
+  }
+
+  .email-box {
+    width: 260px;
+  }
+
+  .logo-top-footer {
+    display: none;
+  }
+
+  .logo-aleia-footer {
+    width: 78px;
+    height: 31px;
+    display: block;
+  }
+
+  .bottom-footer {
+    align-items: center;
+    margin: 0 50px;
+    justify-content: space-between;
+  }
+  .all-rights-r {
+    width: unset;
+  }
+
+  .top-footer {
+    height: 150px;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .menu-desktop {
+    display: none;
+  }
+
+  .menu {
+    width: 70px;
+    height: 40px;
+    margin: auto 0;
+    display: block;
+  }
+
+  .logo-aleia {
+    width: 173px;
+    height: 69px;
+  }
+  .rectangle-contactus {
+    display: none;
+  }
+  .fr {
+    display: none;
+  }
+
+  .rectangle {
+    position: absolute;
+    width: 100%;
+    background: transparent;
+    padding: 6%;
+  }
+
+  .technologies-html {
+    font-size: 17px;
+    line-height: 23.15px;
+    width: 384px;
+    text-align: justify;
+  }
+  .mask {
+    height: 832px;
+    padding-top: 20%;
+  }
+  .be-careful-to-respec {
+    font-size: 50px;
+    line-height: 60.95px;
+    width: 384px;
+  }
+
+  .data-image-png-15 {
+    width: 75%;
+  }
+
+  .good-luck-about-this {
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 28px;
+    line-height: 34.13px;
+    width: 529px;
+    text-align: center;
+  }
+
+  .lorem-ipsum-dolor-si {
+    color: #B1B0B2;
+    font-family: OpenSans;
+    font-size: 17px;
+    line-height: 23.15px;
+    width: 564px;
+    text-align: justify;
+  }
+
+  .dont-forget-about-t {
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 28px;
+    line-height: 34.13px;
+    text-align: center;
+  }
+
+  .dont-forget-block {
+    margin: 50% auto 90px;
+  }
+
+  .hang-in-there {
+    color: #000000;
+    font-size: 15px;
+    line-height: 20px;
+    width: 104px;
+    text-align: center;
+  }
+
+  .lorem-ipsum {
+    font-size: 20px;
+    line-height: 24px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .lorem-ipsum-dolor-si {
+    font-size: 17px;
+    line-height: 23.15px;
+    width: 557px;
+    text-align: justify;
+  }
+
+  .rectangle-footer {
+    height: 291px;
+  }
+
+  .follow-as {
+    display: none;
+  }
+
+  .logo-aleia-footer {
+    width: 143px;
+    height: 57px;
+    display: block;
+  }
+
+  .all-rights-r {
+    width: unset;
+  }
+
+  .bottom-footer {
+    align-items: center;
+    margin: 0 50px;
+    justify-content: space-between;
+  }
+
+  .send-us-your-email-t {
+    font-size: 17px;
+    line-height: 18px;
+  }
+
+  .email-box {
+    width: 320px;
+  }
+
+  .logo-top-footer {
+    display: none;
+  }
+}

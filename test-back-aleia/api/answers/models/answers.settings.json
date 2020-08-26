@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "answers",
+  "info": {
+    "name": "answers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "answer": {
+      "type": "string"
+    },
+    "isCorrect": {
+      "type": "boolean",
+      "default": false
+    },
+    "question": {
+      "model": "questions"
+    }
+  }
+}

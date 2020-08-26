@@ -1,0 +1,22 @@
+<div *ngFor="let question of qcmList">
+  <label> {{question.question}}</label>
+  <br>
+  <div *ngFor="let answer of question.answers">
+    <input type="radio" [name]="question.id" [value]="answer.id"
+           (click)="addAnswer({idQ: question.id, idA: answer.id})">
+    <label>{{answer.answer}}</label>
+    <br>
+  </div>
+  <br>
+</div>
+<button (click)="confirmForm()">répondre</button>
+
+<br><br>
+
+<div *ngIf="score">
+  votre score est {{score}}
+</div>
+
+<div class="alert-danger" *ngIf="showError">
+    {{errorMsg}}
+</div>

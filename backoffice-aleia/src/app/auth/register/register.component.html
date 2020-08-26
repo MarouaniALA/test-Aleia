@@ -1,0 +1,14 @@
+<div>
+<form [formGroup]="registerForm" (ngSubmit)="postRegister()">
+  <input type="username" formControlName="username" placeholder="username">
+  <input type="email" formControlName="email" placeholder="email">
+  <input type="password" formControlName="password" placeholder="password">
+  <br>
+  <button type="submit"> sign up </button>
+  <label routerLink="/"> login</label>
+
+</form>
+</div>
+<div class="alert-danger" *ngIf="showError">
+  {{errorMsg}}
+</div>

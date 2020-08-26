@@ -1,0 +1,12 @@
+<div>
+<form [formGroup]="loginForm" (ngSubmit)="postLogin()">
+  <input type="text" formControlName="identifier" placeholder="identifier">
+  <input type="password" formControlName="password" placeholder="password">
+  <button type="submit"> login </button>
+
+  <label routerLink="/register">sign up</label>
+</form>
+</div>
+<div class="alert-danger" *ngIf="showError">
+  {{errorMsg}}
+</div>

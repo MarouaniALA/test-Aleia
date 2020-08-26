@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_participations",
+  "info": {
+    "name": "UserParticipation"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "score": {
+      "type": "integer"
+    },
+    "answers": {
+      "collection": "answers"
+    },
+    "questions": {
+      "collection": "questions"
+    }
+  }
+}
